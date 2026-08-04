@@ -1,0 +1,113 @@
+/* Navbar */
+.Navbar {
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Navbar button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Navbar button:hover {
+    background-color: #6006f0;
+    color: rgb(8, 8, 2);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.Home,
+.Pendidikan,
+.Jadwal,
+.Aktivitas {
+    width: 80%;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #333333;
+    color: white;
+    border-radius: 20px;
+}
+
+div button:hover{
+    background-color: #555555;
+    color: yellow;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #333333;
+    padding: 15px;
+}
+
+.Welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Welcome h1 {
+    font-size: 40px;
+    color: #279fee;
+}
+
+.Welcome p {
+    font-size: 18px;
+    color: #279fee;
+}
+
+.Footer {
+    background-color: #1b4e70;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.Home,
+.Pendidikan,
+.Jadwal,
+.Aktivitas {
+    min-height: 70vh;
+    margin: 100px auto;
+    padding: 50px;
+}
+
+.Welcome {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    padding: 50px;
+    background-color: #333333;
+    color: white;
+    border-radius: 20px;
+}
+
+.Welcome h1 {
+    font-size: 40px;
+    color: #279fee;
+}
+
+.Welcome p {
+    font-size: 18px;
+    color: #279fee;
+}
